@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* setting */
+*{ margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; color: #383838; }
+input{ border: 0; outline: none; background: transparent; }
+button{ border: 0; outline: none; background: transparent; }
+a{ text-decoration: none; }
+
+/* class  */
+.container{ width: 1440px; height: 100%; margin: 0 auto; position: relative; }
+.btn{ padding: 0.75rem 1rem; border:1px solid #666; border-radius: 5px; font-size: 0.85rem; cursor: pointer;}
+
+
+/* template : header */
+header{ height: 45px; background: #383838; }
+
+/* template : section */
+section{ padding: 5rem 0; height: calc(100vh - 90px); overflow: auto;}
+
+section .todo{ width: 500px; margin: 0 auto; }
+section .todo-head__addItem{ width: 100%; background: #383838;  color: #f8f8f8; margin-bottom: 1rem;}
+section .todo-body{ padding-left: 1.25rem; }
+section .todo-body__item{ padding: 0.5rem;  }
+section .todo-item__name{  }
+section .todo-item__remove-btn{ padding: 0.5rem 0.75rem; font-size: 0.75rem; }
+
+/* template : footer */
+
+footer{ height: 45px; background: #383838; }
