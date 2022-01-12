@@ -26,12 +26,10 @@ export default ($target) => create({
 	setEvent(){
 		this.addEvent('click','.todo-head__addItem',()=>{
 			this.state.todos = [...this.state.todos,this.addTodo()];
-			console.log(this.state.todos);
 			this.setState(this.state)
 		});
 	},
 	addTodo(){
-		const idx = this.state.todos.length+1;
-		return { name: `item${idx}` }
+		return { name: `item${this.state.idx++}` }
 	}
 });
