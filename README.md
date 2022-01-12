@@ -1,0 +1,1 @@
+# vanilla-custom-component
